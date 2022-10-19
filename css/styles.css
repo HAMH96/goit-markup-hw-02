@@ -50,6 +50,7 @@ h1 {
   border-radius: 4px;
   font-weight: 700;
   font-size: 16px;
+  cursor: pointer;
 }
 
 .attribute-card {
@@ -65,7 +66,6 @@ h1 {
 
 .attribute-content {
   color: #757575;
-  font-weight: 400;
   font-size: 14px;
 }
 
@@ -92,14 +92,11 @@ h1 {
 }
 
 .teamMemberName {
-  font-size: 16px;
   font-weight: 500;
   color: #212121;
 }
 
 .teamMemberRole {
-  font-size: 16px;
-  font-weight: 400;
   color: #757575;
 }
 
@@ -110,6 +107,7 @@ h1 {
   border-radius: 4px;
   color: #212121;
   border: none;
+  cursor: pointer;
 }
 
 .button:hover {
@@ -135,6 +133,34 @@ a {
   color: #212121;
 }
 
+.portfolioItemCard {
+  width: 370px;
+  height: 404px;
+  left: calc(50% - 370px / 2);
+  top: calc(50% - 404px / 2 - 464px);
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+
+.portfolioItemCard:hover {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
+}
+
+.portfolioItemName {
+  color: #212121;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.portfolioItemDescription {
+  color: #757575;
+}
+
 footer {
   background-color: #2f303a;
   width: 1600px;
@@ -143,7 +169,6 @@ footer {
 
 address {
   font-size: 14px;
-  font-weight: 400;
   font-style: normal;
   color: #ffffff;
 }
